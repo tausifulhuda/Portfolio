@@ -57,7 +57,7 @@ h2,h3{
     display: flex;
 }
 
-button{
+.button{
     border-radius: var(--image);
     text-align: center;
     border: none;
@@ -84,9 +84,7 @@ button{
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
 }
 .btn:hover {
-    background-color: var(--text);
     transform: translateY(-2px);
-    opacity: 0.9;
     box-shadow: 0 8px 20px var(--text);
 }
 .btn:active{
@@ -100,6 +98,55 @@ button{
     margin-right: 10px;
     margin-top: 0px;
     font-size:18px;
+}
+.btn_home {
+    width:150px;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size:18px;
+}
+.linkedin:hover{
+    background: rgb(11, 102, 195);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgb(11, 102, 195);
+}
+.github:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 8px 20px rgb(255, 255, 255);
+}
+.hackerrank:hover{
+    background: rgb(13, 20, 30);
+    color:rgb(0, 234, 100);
+    box-shadow: 0 8px 20px rgb(13, 20, 30);
+}
+.yahoo:hover{
+    background: rgb(91, 0, 202);
+    color: rgb(247, 247, 247);
+    box-shadow: 0 8px 20px rgb(91, 0, 202);
+}
+.messenger:hover{
+    background: rgb(8, 102, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgb(8, 102, 255);
+}
+.whatsapp:hover{
+    background: rgb(32, 191, 98);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgb(32, 191, 98);
+}
+.telegram:hover{
+    background: rgb(50, 142, 234);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgb(50, 142, 234);
+}
+.discord:hover{
+    background: rgb(93, 106, 242);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgb(93, 106, 242);
 }
 
 img {
@@ -123,6 +170,7 @@ img {
 
 a {
     color: var(--text);
+    text-decoration: none;
 }
 .a_button{
     color: var(--background);
