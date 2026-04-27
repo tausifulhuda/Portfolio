@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
-        <script src="index.js"></script>
+        <script src="index.js" defer></script>
         <title>Tausif Ul Huda</title>
     </head>
     
@@ -11,36 +11,41 @@
         <div class="flex" id="bg">
 
             <div class="img_pane">
-                <a href="image.html"><img src="tausif.jpg" alt="Tausif Ul Huda" class="img"></a>
+                <a onclick="openImage()" class="image_link"><img src="tausif.jpg" alt="Tausif Ul Huda" class="img"></a>
+                    <div id="overlay" class="overlay" onclick="outsideClick(event)">
+                        <div class="image"><img src="tausif.jpg"></div>
+                    </div>
                 <div>
                     <a href="Resume.pdf" target="_blank" class="btn button">My Resume</a>
                 </div><br>  
             </div>
 
             <div class="text_pane">
-               
-                <div>
-                    <h1>Hi, I am Tausif Ul Huda</h1>
-                    <h3>Software Engineer | Computer Engineer | Web Developer</h3>
-                </div><br><br>
-                
-                <div id="stroke">
-                    <b>About Me:</b> I am a third-year Computer Science and Engineering (CSE) student at 
-                    Rajshahi University of Engineering & Technology (RUET). 
-                    I am passionate about building efficient, scalable, and user-focused software solutions.<br><br>
+                <div class="content-box">
+                    <div>
+                        <h1>Hi, I am Tausif Ul Huda</h1>
+                        <h4>Trying to be</h4>
+                        <h3>Software Engineer | Computer Engineer | Web Developer</h3>
+                    </div><br><br>
+                    
+                    <div id="stroke">
+                        <b>About Me:</b> I am a third-year Computer Science and Engineering (CSE) student at 
+                        Rajshahi University of Engineering & Technology (RUET). 
+                        I am passionate about building efficient, scalable, and user-focused software solutions.<br><br>
 
-                    My primary programming language is Python, and I am also proficient 
-                    in C++ and Java. I enjoy solving problems and continuously improving 
-                    my analytical and development skills. Alongside problem-solving, I work 
-                    as a full-stack web developer, building responsive and functional 
-                    web applications. <br><br>
+                        My primary programming language is Python, and I am also proficient 
+                        in C++ and Java. I enjoy solving problems and continuously improving 
+                        my analytical and development skills. Besides, I am learning to become 
+                        a full-stack web developer to build responsive and functional 
+                        web applications. <br><br>
 
-                    I have developed several projects that showcase my skills and practical experience. 
-                    You can explore them on my GitHub and LinkedIn profiles through the links below.<br><br>
+                        I have developed several projects that showcase my skills and practical experience. 
+                        You can explore them on my GitHub and LinkedIn profiles through the links below.<br><br>
 
-                    Feel free to reach out if you would like to collaborate or learn more about my work.  
+                        Feel free to reach out if you would like to collaborate or learn more about my work.  
 
-                </div><br><br>    
+                    </div>  
+                </div>
 
                 <div>
                     <h2>Check out my profiles: </h2>

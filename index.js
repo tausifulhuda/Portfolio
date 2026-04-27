@@ -89,4 +89,18 @@ function favouriteFruit(theme) {
     } 
 }
 
+function openImage() {
+    document.getElementById("overlay").style.display = "flex";
+}
+
+function closeImage() {
+    document.getElementById("overlay").style.display = "none";           
+}
+
+function outsideClick(event) {
+    if (event.target.id === "overlay") {
+        closeImage();
+    }
+}
+
 
