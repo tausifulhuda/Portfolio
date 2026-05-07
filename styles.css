@@ -66,7 +66,7 @@ h2,h3{
 }
 .image{
     width: 40%;
-    height: 40%;
+    height: 0px;
     border-radius: 12px;
     animation: fadeIn 0.3s ease-out;
     display: flex;
